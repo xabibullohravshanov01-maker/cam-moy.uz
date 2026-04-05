@@ -38,6 +38,8 @@ function magazinniKorsat() {
             nom: "Sochiqli latta",
             narx: "70,000",
             rasm: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwyq04CQ1R4UdHdPuaBKV9MblPSjhzDvGt4Q&s"
+        }
+
     ];
 
     
