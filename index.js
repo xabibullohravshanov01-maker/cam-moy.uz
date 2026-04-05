@@ -100,7 +100,32 @@ function xizmatlarniKorsat() {
             `
         
     })
+}
+
+const panel = document.getElementById('mahsulotlar-paneli')
+function manzilniKorsat() {
+    panel.innerHTML = `
+        <div class="kartochka" style="border: 2px solid #28a745; width: 100%; max-width: 500px; margin: 20px auto; padding: 15px; background: white; border-radius: 15px; text-align: center;">
+            <img src="https://static-maps.yandex.ru/1.x/?lang=ru_RU&ll=67.2431,39.4055&z=14&l=map&size=450,300&pt=67.2431,39.4055,pm2gnm" alt="Xarita" style="width:100%; border-radius: 10px;">
+            
+            <h2 style="color: #28a745; margin: 15px 0;">📍 Bizning Manzil</h2>
+            
+            <div style="text-align: left; font-size: 18px; line-height: 1.6;">
+                <p><b>🏢 Joylashuv:</b> Samarqand viloyati, Urgut tumani</p>
+                <p><b>🛣 Mo'ljal:</b> Kamardon Maxallasi A Qodiriyksi</p>
+                <p><b>⏰ Ish vaqti:</b> 06:00 dan 23:00 gacha</p>
+                <p><b>📞 Aloqa:</b> +998 91 545 75 35</p>
+            </div>
+
+            <a href="https://www.google.com/maps?q=39.4055,67.2431" target="_blank" 
+               style="background: #007bff; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; display: inline-block; margin-top: 15px; font-weight: bold;">
+               🗺 Google Xaritada ko'rish
+            </a>
+        </div>
+        `
+    
 };
+
 
 
 
