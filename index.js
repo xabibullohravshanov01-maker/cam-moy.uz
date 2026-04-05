@@ -33,7 +33,11 @@ function magazinniKorsat() {
             nom: "Salon Asvijitel",
             narx: "25,000",
             rasm: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTesWBzMwGv2UB4y9Usye3BdsU9MclnrwNwIw&s"
-        }
+        },
+        {
+            nom: "Sochiqli latta",
+            narx: "70,000",
+            rasm: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwyq04CQ1R4UdHdPuaBKV9MblPSjhzDvGt4Q&s"
     ];
 
     
