@@ -101,3 +101,8 @@ body {
     object-fit: cover; 
     filter: brightness(55%); 
 }
+
+    #bg-video {
+        object-fit: contain; 
+        background-color: black;
+}
