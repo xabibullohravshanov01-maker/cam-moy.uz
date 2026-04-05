@@ -87,3 +87,17 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+#bg-video {
+    position: fixed;
+    top: 65%; 
+    left: 65%; 
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%); 
+    object-fit: cover; 
+    filter: brightness(55%); 
+}
