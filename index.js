@@ -4,7 +4,7 @@ function magazinniKorsat() {
     // Mahsulotlar ro'yxati
     const tovarlar = [
         { 
-            nom: "Sifatli Latta (Microfiber)", 
+            nom: "Yumshoq latta ", 
             narx: "25,000", 
             rasm: "https://images.uzum.uz/d05tp5ui4n37npaq86a0/original.jpg" 
         },
@@ -35,10 +35,24 @@ function magazinniKorsat() {
             rasm: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTesWBzMwGv2UB4y9Usye3BdsU9MclnrwNwIw&s"
         },
         {
-            nom: "Sochiqli latta",
+            nom: "Yumshoq sochiqli latta",
             narx: "70,000",
             rasm: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwyq04CQ1R4UdHdPuaBKV9MblPSjhzDvGt4Q&s"
-        }
+        },
+        {
+            nom: "Delfin",
+            narx: "40,000",
+            rasm: "https://images.uzum.uz/d1cic8q7s4fup34b8kag/original.jpg"
+        },
+        {
+            nom: "Premium latta",
+            narx: "55,000",
+            rasm: "https://assets.asaxiy.uz/product/items/desktop/06aed2799ae790fba35a20b194c1315d2024051014363868647drF0jPNKk5.jpg.webp"
+        },
+        {
+            nom: "Delfin qora",
+            narx: "15,000",
+            rasm: "https://images.uzum.uz/d02vgic7fd1idpht1f9g/original.jpg"
 
     ];
 
@@ -71,13 +85,13 @@ function xizmatlarniKorsat() {
         },
         { 
             nom: "Karcher Pilesos", 
-            tavsif: "Xammasi klientlar uchun", 
+            tavsif: "Xammasi mijozlarimiz uchun", 
             narx: "Xizmatlar bonus sifatida ",
             rasm: "https://api.cabinet.smart-market.uz/uploads/images/ff80818162d1c36c19321e91"
         },
         { 
             nom: "Kompressor", 
-            tavsif: "Xammasi klientlar uchun", 
+            tavsif: "Xammasi mijozlarimiz uchun", 
             narx: "Xizmatlar bonus sifatida",
             rasm: "https://afex.uz/wp-content/uploads/2021/12/evk-200-1.jpeg"
         },
