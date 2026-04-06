@@ -53,6 +53,7 @@ function magazinniKorsat() {
             nom: "Delfin qora",
             narx: "15,000",
             rasm: "https://images.uzum.uz/d02vgic7fd1idpht1f9g/original.jpg"
+        },       
 
     ];
 
