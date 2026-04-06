@@ -53,7 +53,18 @@ function magazinniKorsat() {
             nom: "Delfin qora",
             narx: "15,000",
             rasm: "https://images.uzum.uz/d02vgic7fd1idpht1f9g/original.jpg"
-        },       
+        },
+        {
+            nom: "Salon asvijitel",
+            narx: "25,000",
+            rasm: "https://avatars.mds.yandex.net/get-mpic/4012413/2a00000196077829e98ce72f089587719ef0/orig"
+        },
+        {
+            nom: "Balon qoraytirgich",
+            narx: "45,000",
+            rasm: "https://images.uzum.uz/cukpkv6i4n324lr99d80/original.jpg"
+        }       
+                
 
     ];
 
