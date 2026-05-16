@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAM-MOY-UZING-YUV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+
+    <div class="menu-konteyner">
+        <button class="menu-tugma">MENYU ☰</button>
+        <div class="menu-tarkibi">
+            <div class="menyu-punkt" onclick="xizmatlarniKorsat()">Xizmatlar</div>
+            <a href="tel:+998915457535" class="menyu-punkt">Aloqa: +998 91 545 75 35</a>
+            <div class="menyu-punkt" onclick="magazinniKorsat()">Magazin 🛒</div>
+            <div class="menyu-punkt" onclick="manzilniKorsat()">Manzilimiz 📍</div>
+        </div>
+    </div>
+
+    <h1 style="text-align: center; color: white; margin-top: 90px; font-family: sans-serif; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">САМ-МОЙ-UZING-YUV</h1>
+
+    <div id="mahsulotlar-paneli" class="mahsulotlar-grid"></div>
+
+    <div>
+        <video autoplay loop muted playsinline id="bg-video">
+            <source src="car.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="tolov-modal" class="modal-konteyner" style="display: none;">
+        <div class="modal-tarkib">
+            <span class="yopish-tugma" onclick="tolovOynasiniYop()">×</span>
+            <h3 id="modal-mahsulot-nomi" style="color: black; margin-bottom: 20px;"></h3>
+            <p style="color: #666; font-weight: bold; margin-bottom: 15px;">To'lov tizimini tanlang:</p>
+            
+            <button class="tolov-btn click-btn" onclick="tolovniAmalgaOshir('Click')">🔵 CLICK</button>
+            <button class="tolov-btn payme-btn" onclick="tolovniAmalgaOshir('Payme')">🟢 PAYME</button>
+            <button class="tolov-btn xazna-btn" onclick="tolovniAmalgaOshir('Xazna')">🔴 XAZNA</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
